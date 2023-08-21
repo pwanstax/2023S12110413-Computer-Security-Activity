@@ -52,9 +52,6 @@ def main():
             sha1_result = compute_sha1(possible_word)
             md5_result = compute_md5(possible_word)
 
-            if possible_word == "ThaiLanD":
-                print(possible_word, sha1_result, md5_result)
-
             if sha1_result == TARGET_HASH:
                 print(f"Found the password (SHA-1): {possible_word}")
                 return

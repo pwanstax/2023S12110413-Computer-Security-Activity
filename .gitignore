@@ -1,3 +1,8 @@
 .DS_Store
 .vscode
 *.pages
+*.cert
+*.crt
+*.cer
+*.der
+*.pem
